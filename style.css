@@ -1,0 +1,160 @@
+nav {
+    width: 100%;
+}
+
+.logo img {
+    width: 182px;
+    height: 56px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navbar ul li img {
+    width: 25px;
+    height: 24px;
+}
+
+.navbar ul li span {
+    font-size: 16px;
+    padding: 0 4px;
+
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 70px;
+    gap: 20px;
+
+}
+
+.first :nth-child(1) {
+    font-size: 48px;
+    line-height: 1.3em;
+
+}
+
+.first span img {
+    padding: 0 30px;
+}
+
+.first p {
+    font-size: 25px;
+    width: 70%;
+    text-align: center;
+}
+
+.btn {
+background: #00b6d1;
+padding: 16px 22px;
+color: #fff;
+border: none;
+border-radius: 6px;
+font-weight: 700;
+margin: 12px 0;
+cursor: pointer;
+}
+.btn a{
+text-decoration: none;
+color: white;
+}
+.second {
+    max-width: 65vw;
+    margin: auto;
+
+}
+
+.download :nth-child(2) {
+    font-size: 24px;
+    color: #393838;
+}
+
+.download img {
+    padding: 0px 12px;
+}
+
+.download {
+    display: flex;
+    font-family: sans-serif;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+ 
+  
+ 
+
+}
+.item {
+padding: 20px;
+background: #f9f9f9;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center; 
+
+
+}
+
+.item-lang{
+font-weight: 700;
+text-align: center;
+margin-bottom: 35px;
+
+}
+
+ .green{
+    background-color: #5cb85c;
+    padding: 10px 13px;
+ }
+ .blue{
+    padding: 10px 13px;
+ }
+ @media screen and (max-width: 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+    .item{
+        width: 100%;
+        height: auto;
+    }
+    .first p {
+        font-size: 22px;
+        text-align: center;
+    }
+    .first span img {
+        padding: 0 20px;
+    }
+    .first :nth-child(1) {
+     align-items: center;
+    
+    }
+}
